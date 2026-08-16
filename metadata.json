@@ -1,0 +1,6 @@
+{
+  "name": "Dastavej Box",
+  "description": "Secure offline digital document manager to safely store, organize, search and retrieve important personal documents.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

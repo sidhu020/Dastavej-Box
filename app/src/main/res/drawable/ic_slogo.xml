@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Circle Background with Modern Gradient -->
+    <path
+        android:pathData="M60,4 A56,56 0 1,1 59.9,4 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="10"
+                android:startY="10"
+                android:endX="110"
+                android:endY="110"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#2563EB" />
+                <item android:offset="0.5" android:color="#3B82F6" />
+                <item android:offset="1.0" android:color="#1D4ED8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Outer Glow Ring -->
+    <path
+        android:pathData="M60,7 A53,53 0 1,1 59.9,7 Z"
+        android:strokeColor="#FFFFFF"
+        android:strokeAlpha="0.3"
+        android:strokeWidth="1.5" />
+
+    <!-- Stylized "S" Monogram Crest -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M78,38 C75,34 69,32 61,32 C47,32 39,40 39,50 C39,66 76,59 76,73 C76,80 70,84 60,84 C50,84 43,80 39,74 L46,68 C49,72 54,75 60,75 C66,75 70,72 70,67 C70,52 33,59 33,45 C33,36 43,26 61,26 C71,26 79,29 84,34 Z" />
+
+    <!-- Stylized Accent Dot (Security Badge Accent) -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M81,77 A5,5 0 1,1 86,82 A5,5 0 0,1 81,77 Z" />
+</vector>

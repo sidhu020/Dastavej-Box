@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+
+    <!-- Outer Squircle Card Base -->
+    <path
+        android:pathData="M70,14 H170 C202,14 226,38 226,70 V170 C226,202 202,226 170,226 H70 C38,226 14,202 14,170 V70 C14,38 38,14 70,14 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Outer Orange Warm Accent Border -->
+    <path
+        android:pathData="M70,14 H170 C202,14 226,38 226,70 V170 C226,202 202,226 170,226 H70 C38,226 14,202 14,170 V70 C14,38 38,14 70,14 Z"
+        android:strokeColor="#EA580C"
+        android:strokeWidth="5" />
+
+    <!-- ======================================================== -->
+    <!-- 1. VAULT PAPERS & DOCUMENTS (PEEKING FROM INSIDE CHEST)  -->
+    <!-- ======================================================== -->
+
+    <!-- Yellow Folder (Back Right) -->
+    <path
+        android:fillColor="#E69500"
+        android:pathData="M140,48 L160,48 C163,48 166,51 166,54 L166,95 L128,95 L128,54 C128,51 131,48 134,48 Z" />
+    <path
+        android:fillColor="#F6C344"
+        android:pathData="M150,40 L168,40 C172,40 176,43 176,47 L176,64 L144,64 Z" />
+    <path
+        android:strokeColor="#C87A00"
+        android:strokeWidth="2.5"
+        android:pathData="M150,40 L168,40 C172,40 176,43 176,47 L176,90 L128,90 L128,54 C128,51 131,48 134,48 L160,48" />
+
+    <!-- Center Top Document (White Sheet with Profile) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#CBD5E1"
+        android:strokeWidth="2.5"
+        android:pathData="M98,32 L138,32 C143,32 146,35 146,40 L146,100 L90,100 L90,40 C90,35 93,32 98,32 Z" />
+    <!-- Avatar Head & Shoulders -->
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M118,44 A6.5,6.5 0 1,1 118,57 A6.5,6.5 0 0,1 118,44 Z" />
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M105,68 C105,62 111,60 118,60 C125,60 131,62 131,68 Z" />
+    <!-- Document Text Lines -->
+    <path
+        android:strokeColor="#94A3B8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M98,76 L138,76 M98,83 L138,83 M98,90 L124,90" />
+
+    <!-- ID Card (Tilted Left) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#CBD5E1"
+        android:strokeWidth="2.5"
+        android:pathData="M60,72 L100,56 C104,54.5 108.5,56.5 110,61 L120,94 L70,108 C65.5,109.5 61,107.5 59.5,103 L55.5,78 C55.2,75.5 57,73 60,72 Z" />
+    <!-- ID Red/Orange Photo -->
+    <path
+        android:fillColor="#EA580C"
+        android:pathData="M65,76 L82,70 L87.5,84 L70.5,90 Z" />
+    <!-- ID Avatar Silhouette -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M74.5,74 A3,3 0 1,1 77.5,79 A3,3 0 0,1 74.5,74 Z M70.5,86 C71.5,83 77,82 80,83 L82,88 Z" />
+    <!-- ID Text Lines -->
+    <path
+        android:strokeColor="#94A3B8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M87,74 L102,68.5 M90,82 L105,76.5 M76,96 L98,88" />
+
+    <!-- Orange Passport Booklet (Center Left) -->
+    <path
+        android:fillColor="#EA580C"
+        android:strokeColor="#9A3412"
+        android:strokeWidth="2.5"
+        android:pathData="M84,65 L116,57 C120,56 124,58.5 125,62.5 L133,105 L98,114 C94,115 90,112.5 89,108.5 L82,70 C82,67.5 82.5,66 84,65 Z" />
+    <!-- Gold Globe Grid -->
+    <path
+        android:strokeColor="#FEF08A"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M106,85 A9,9 0 1,1 115,94 A9,9 0 0,1 106,85 Z M98,89 L115,84 M107,76 L110,98" />
+
+    <!-- Certified Diploma Document (Center Right) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#CBD5E1"
+        android:strokeWidth="2.5"
+        android:pathData="M116,48 L152,48 C156,48 159,51 159,55 L159,105 L110,105 L110,55 C110,51 113,48 116,48 Z" />
+    <!-- Gold Rosette Seal -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M134,66 A7.5,7.5 0 1,1 149,66 A7.5,7.5 0 0,1 134,66 Z" />
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M138,70 L134,81 L142,78 L150,81 L146,70 Z" />
+    <!-- Certificate Text Lines -->
+    <path
+        android:strokeColor="#94A3B8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M116,86 L152,86 M116,92 L152,92 M116,98 L138,98" />
+
+
+    <!-- ======================================================== -->
+    <!-- 2. ISOMETRIC ORANGE VAULT BOX WITH HEAVY SHIELD BORDER   -->
+    <!-- ======================================================== -->
+
+    <!-- Outer Thick Dark Contour -->
+    <path
+        android:fillColor="#7C2D12"
+        android:pathData="M52,95 L120,66 L188,95 L188,152 C188,157 185,162 180,165 L124,195 C121.5,196.5 118.5,196.5 116,195 L60,165 C55,162 52,157 52,152 Z" />
+
+    <!-- Box Interior Floor -->
+    <path
+        android:fillColor="#9A3412"
+        android:pathData="M56,97 L120,70 L184,97 L184,115 L120,139 L56,115 Z" />
+
+    <!-- Left Facet -->
+    <path
+        android:pathData="M57,100 L120,124 L120,189 L61,159 C58.5,157.5 57,155 57,152 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="57"
+                android:startY="100"
+                android:endX="120"
+                android:endY="189"
+                android:type="linear">
+                <item android:color="#F97316" android:offset="0.0" />
+                <item android:color="#EA580C" android:offset="0.5" />
+                <item android:color="#C2410C" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Right Facet -->
+    <path
+        android:pathData="M120,124 L183,100 L183,152 C183,155 181.5,157.5 179,159 L120,189 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="120"
+                android:startY="100"
+                android:endX="183"
+                android:endY="189"
+                android:type="linear">
+                <item android:color="#FB923C" android:offset="0.0" />
+                <item android:color="#F97316" android:offset="0.5" />
+                <item android:color="#EA580C" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Top Rim Edge Left -->
+    <path
+        android:pathData="M57,99 L120,123 L120,115 L57,91 Z"
+        android:fillColor="#FDBA74" />
+    <!-- Top Rim Edge Right -->
+    <path
+        android:pathData="M120,123 L183,99 L183,91 L120,115 Z"
+        android:fillColor="#FED7AA" />
+
+    <!-- Center Seam Line -->
+    <path
+        android:strokeColor="#7C2D12"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M120,124 L120,189" />
+
+
+    <!-- ======================================================== -->
+    <!-- 3. GLEAMING SOLID GOLD PADLOCK (SHINY VAULT LOCK)       -->
+    <!-- ======================================================== -->
+
+    <!-- Padlock Shackle Dark Contour -->
+    <path
+        android:fillColor="#78350F"
+        android:pathData="M96,104 C96,84 106,73 120,73 C134,73 144,84 144,104 L152,104 C152,80 138,66 120,66 C102,66 88,80 88,104 Z" />
+
+    <!-- Padlock Shackle Body -->
+    <path
+        android:pathData="M97,106 C97,87 107,76 120,76 C133,76 143,87 143,106 L150,106 C150,83 137,70 120,70 C103,70 90,83 90,106 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="90"
+                android:startY="68"
+                android:endX="150"
+                android:endY="106"
+                android:type="linear">
+                <item android:color="#FEF08A" android:offset="0.0" />
+                <item android:color="#FACC15" android:offset="0.3" />
+                <item android:color="#EAB308" android:offset="0.7" />
+                <item android:color="#CA8A04" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Padlock Body Heavy Dark Outline -->
+    <path
+        android:fillColor="#78350F"
+        android:pathData="M85,104 H155 C160,104 165,109 165,114 V155 C165,160 160,165 155,165 H85 C80,165 75,160 75,155 V114 C75,109 80,104 85,104 Z" />
+
+    <!-- Padlock Body Gold Gradient -->
+    <path
+        android:pathData="M87,107 H153 C157,107 161,111 161,115 V153 C161,157 157,161 153,161 H87 C83,161 79,157 79,153 V115 C79,111 83,107 87,107 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="78"
+                android:startY="106"
+                android:endX="162"
+                android:endY="162"
+                android:type="linear">
+                <item android:color="#FEF9C3" android:offset="0.0" />
+                <item android:color="#FDE047" android:offset="0.25" />
+                <item android:color="#EAB308" android:offset="0.6" />
+                <item android:color="#CA8A04" android:offset="0.85" />
+                <item android:color="#A16207" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Highlight Rim -->
+    <path
+        android:pathData="M90,111 H150 C154,111 157,114 157,118 V149 C157,153 154,156 150,156 H90 C86,156 83,153 83,149 V118 C83,114 86,111 90,111 Z"
+        android:strokeColor="#FEF08A"
+        android:strokeWidth="2.5" />
+
+    <!-- Center Keyhole -->
+    <path
+        android:fillColor="#451A03"
+        android:pathData="M120,119 C116,119 113,122 113,126 C113,128.5 114.5,131 116.5,132 L115,145 H125 L123.5,132 C125.5,131 127,128.5 127,126 C127,122 124,119 120,119 Z" />
+
+    <!-- Sparkle Star Accent -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M149,108 L151.5,98 L154,108 L164,110.5 L154,113 L151.5,123 L149,113 L139,110.5 Z" />
+    <path
+        android:fillColor="#FEF08A"
+        android:pathData="M151.5,108 A3.5,3.5 0 1,1 155,111.5 A3.5,3.5 0 0,1 151.5,108 Z" />
+
+</vector>
